@@ -48,7 +48,7 @@ body::before {
 }
 
 /* ─── NAV ─── */
-nav {
+#mainNav {
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 999;
@@ -58,7 +58,7 @@ nav {
   justify-content: space-between;
   transition: background 0.4s var(--ease), backdrop-filter 0.4s;
 }
-nav.scrolled {
+#mainNav.scrolled {
   background: rgba(7,17,31,0.88);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(200,147,58,0.15);
@@ -1342,13 +1342,13 @@ footer {
 <footer>
   <div class="footer-inner">
     <a href="#" class="footer-logo">CAD Designs Plus<small>Residential Permit Expediting · San Bernardino, CA</small></a>
-    <nav class="footer-links">
+    <div class="footer-links">
       <a href="#why">Why Us</a>
       <a href="#services">Services</a>
       <a href="#process">Process</a>
       <a href="#testimonials">Reviews</a>
       <a href="#contact">Contact</a>
-    </nav>
+    </div>
     <div class="footer-copy">© 2025 CAD Designs Plus. David Rodriguez. All rights reserved.</div>
   </div>
 </footer>
